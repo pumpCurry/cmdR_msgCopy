@@ -90,7 +90,7 @@
         if (newWindow !== null) {
           const d = newWindow.document;
           d.writeln(
-            `<html><body><textarea>${textAll}</textarea></body></html>`
+            `<html><body><textarea style="width:80%;height:80%;">${textAll}</textarea></body></html>`
           );
           d.close();
         } else {
